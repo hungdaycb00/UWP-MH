@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="U04XAML.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:U04XAML"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Name="LayoutGrid" Background="{ThemeResource AppBarBackgroundThemeBrush}">
+        <Button x:Name="clickMe" Content="Click Me" Margin="237,59,0,0" VerticalAlignment="Top" UseLayoutRounding="True" Click="Click_Button" FocusVisualSecondaryBrush="#99FF0000" BorderBrush="Black" FocusVisualPrimaryBrush="Red" Foreground="#FFF3FF00" RenderTransformOrigin="0.521,0.5" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Red"/>
+                    <GradientStop Color="#FF00FF5D" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button>Helleoooo</Button>
+        <TextBlock x:Name="messagetxt" HorizontalAlignment="Left" Margin="20,80,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Red"/>
+
+    </Grid>
+</Page>
