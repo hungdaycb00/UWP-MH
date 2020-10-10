@@ -1,0 +1,52 @@
+﻿<Page
+    x:Class="U20_CommonControll.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:U20_CommonControll"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="10,10,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Text="TextBox" VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="20,10,0,10">
+            <CheckBox Name="MyCheckBox" Content="Agree?" Tapped="MyCheckBox_Tapped"/>
+            <TextBlock Name="CheckBoxResult"/>
+        </StackPanel>
+        <TextBlock Grid.Row="2" VerticalAlignment="Center" Text="RadioButon"/>
+        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" Margin="20,10,0,10">
+            <RadioButton Name="YesRadio" GroupName="myGroup" Content="Yes" Checked="Radio_Checked"/>
+            <RadioButton Name="NoRadio" GroupName="myGroup" Content="No" Checked="Radio_Checked"/>
+            <TextBlock Name="MyRadioButton"/>
+        </StackPanel>
+        <TextBlock Name="MyComboBox" VerticalAlignment="Center" Text="ComboBox" Grid.Row="3"/>
+        <StackPanel Margin="20,10,0,10" Orientation="Horizontal" Grid.Row="3" Grid.Column="1">
+            <ComboBox SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="Fouth"/>
+
+                <ComboBoxItem Content="Sixth"/>
+                <ComboBoxItem Content="Fifth" IsSelected="True"/>
+            </ComboBox>
+            <TextBlock Name="ComboBoxResult"/>
+        </StackPanel>
+        
+    </Grid>
+</Page>
