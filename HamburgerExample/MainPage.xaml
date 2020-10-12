@@ -26,11 +26,42 @@
                    CompactPaneLength="56"
                    HorizontalAlignment="Left"
                    Grid.Row="1">
-            <ListBox>
-                <ListBoxItem />
-                <ListBoxItem />
-                <ListBoxItem />
-            </ListBox>
+
+            <SplitView.Content>
+                <TextBlock Name="ResultTextBlock"/>
+            </SplitView.Content>
+            <SplitView.Pane>
+                <ListBox SelectionMode="Single"
+                     Name="IconsListBox"
+                     SelectionChanged="IconsListBox_SelectionChanged">
+                    <ListBoxItem Name="ShareListBoxItem">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets"
+                                   FontSize="36"
+                                   Text="&#xE72D;"/>
+                            <TextBlock Text="Share"
+                                   FontSize="24"
+                                   Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+
+                    <ListBoxItem Name="FavoritesListBoxItem">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets"
+                                   FontSize="36"
+                                   Text="&#xE734;" />
+                            <TextBlock Text="Favorites"
+                                   FontSize="24"
+                                   Margin="20,0,0,0"/>
+                        </StackPanel>
+
+                    </ListBoxItem>
+
+                </ListBox>
+            </SplitView.Pane>
+
         </SplitView>
+        
+        
     </Grid>
 </Page>

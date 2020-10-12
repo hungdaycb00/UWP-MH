@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JR9+k306adwBiTPkpnLqbkMFf6KIOngZL0I0+t3ysWLh/8wK/EAaJrIFhifI91mTpwCiv9e3okpE474Sa4QztQ==",
+  "dgSpecHash": "zwLaLYYEkUKFifgWQCeMeQu1NkyV7VcD5kDXVxP+Npu3V3/zdx2LjOvzxgd5xGZT3s+7TmpiFO1y19DUHNNs0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\HamburgerExample\\HamburgerExample.csproj",
+  "projectFilePath": "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\HamburgerExample\\HamburgerExample.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

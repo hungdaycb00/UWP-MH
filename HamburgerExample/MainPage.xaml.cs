@@ -29,7 +29,13 @@ namespace HamburgerExample
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
         {
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+        }
 
+        private void IconsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (ShareListBoxItem.IsSelected) { ResultTextBlock.Text = "Share"; }
+            else if (FavoritesListBoxItem.IsSelected) { ResultTextBlock.Text = "Favorites"; }
         }
     }
 }
