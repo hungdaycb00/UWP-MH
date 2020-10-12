@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Admin\source\repos\U20-CommonControll\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-10T03:54:45.021</Modified>
+      <Modified>2020-10-12T08:28:46.108</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\U20-CommonControll\bin\x86\Debug\U20-CommonControll.exe">
       <PackagePath>entrypoint\U20-CommonControll.exe</PackagePath>
-      <Modified>2020-10-10T03:54:44.275</Modified>
+      <Modified>2020-10-12T08:28:45.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,15 +86,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\U20-CommonControll\bin\x86\Debug\U20-CommonControll.xr.xml">
       <PackagePath>U20-CommonControll.xr.xml</PackagePath>
-      <Modified>2020-10-10T03:54:43.882</Modified>
+      <Modified>2020-10-12T08:28:45.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\U20-CommonControll\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-10T03:54:43.946</Modified>
+      <Modified>2020-10-12T08:19:53.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\U20-CommonControll\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-10T03:54:43.946</Modified>
+      <Modified>2020-10-12T08:28:45.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\U20-CommonControll\bin\x86\Debug\Core\U20-CommonControll.exe">
       <PackagePath>U20-CommonControll.exe</PackagePath>
-      <Modified>2020-10-10T03:54:45.012</Modified>
+      <Modified>2020-10-12T08:28:46.098</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

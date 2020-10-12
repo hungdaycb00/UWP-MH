@@ -28,25 +28,70 @@
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Row="0" Text="TextBox" VerticalAlignment="Center"/>
         <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="20,10,0,10">
-            <CheckBox x:ConnectionId='8' Name="MyCheckBox" Content="Agree?"                           />
-            <TextBlock x:ConnectionId='9' Name="CheckBoxResult"/>
+            <CheckBox x:ConnectionId='12' Name="MyCheckBox" Content="Agree?"                           />
+            <TextBlock x:ConnectionId='13' Name="CheckBoxResult"/>
         </StackPanel>
         <TextBlock Grid.Row="2" VerticalAlignment="Center" Text="RadioButon"/>
         <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" Margin="20,10,0,10">
-            <RadioButton x:ConnectionId='5' Name="YesRadio" GroupName="myGroup" Content="Yes"                        />
-            <RadioButton x:ConnectionId='6' Name="NoRadio" GroupName="myGroup" Content="No"                        />
-            <TextBlock x:ConnectionId='7' Name="MyRadioButton"/>
+            <RadioButton x:ConnectionId='9' Name="YesRadio" GroupName="myGroup" Content="Yes"                        />
+            <RadioButton x:ConnectionId='10' Name="NoRadio" GroupName="myGroup" Content="No"                        />
+            <TextBlock x:ConnectionId='11' Name="MyRadioButton"/>
         </StackPanel>
         <TextBlock x:ConnectionId='2' Name="MyComboBox" VerticalAlignment="Center" Text="ComboBox" Grid.Row="3"/>
         <StackPanel Margin="20,10,0,10" Orientation="Horizontal" Grid.Row="3" Grid.Column="1">
-            <ComboBox x:ConnectionId='3'                                             >
+            <ComboBox x:ConnectionId='7'                                             >
                 <ComboBoxItem Content="Fouth"/>
 
                 <ComboBoxItem Content="Sixth"/>
                 <ComboBoxItem Content="Fifth" IsSelected="True"/>
             </ComboBox>
-            <TextBlock x:ConnectionId='4' Name="ComboBoxResult"/>
+            <TextBlock x:ConnectionId='8' Name="ComboBoxResult"/>
         </StackPanel>
+        <TextBlock Grid.Row="4" Text="ListBox" VerticalAlignment="Center" />
+        <StackPanel Grid.Row="4" Grid.Column="1" Margin="20,10,0,10">
+            <ListBox x:ConnectionId='5' Name="MyListBox" SelectionMode="Multiple"                                            >
+                <ListBoxItem Content="First"/>
+                <ListBoxItem Content="Second"/>
+                <ListBoxItem Content="Third"/>
+            </ListBox>
+            <TextBlock x:ConnectionId='6' Name="ListBoxResultTextBlock"/>
+        </StackPanel>
+        <TextBlock Grid.Row="5" Text="Image" VerticalAlignment="Center" />
+        <Image Source="/Assets/StoreLogo.png"
+               HorizontalAlignment="Left"
+               Width="250"
+               Height="150"
+               Grid.Row="5"
+               Grid.Column="1"
+               Stretch="Fill"
+               Margin="20,10,0,10"/>
+        <TextBlock Grid.Row="7" Text="ToggleButton" VerticalAlignment="Center"/>
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="7"
+                    Grid.Column="1"
+                    Margin="20,10,0,10">
+            <ToggleButton x:ConnectionId='3' Name="MyToggleButton"
+                          Content="Premium Option"
+                          IsThreeState="true"
+                                                      />
+            <TextBlock x:ConnectionId='4' Name="ToggleButtonResultTextBlock"/>
+            
+        </StackPanel>
+        <TextBlock Grid.Row="8" 
+                   Text="ToggleSwitch" VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="8" Grid.Column="1" Margin="20,10,0,10">
+            <ToggleSwitch>
+                <ToggleSwitch.OffContent>
+                    <TextBlock Text="I'am here right now!"/>
+                    
+                </ToggleSwitch.OffContent>
+                <ToggleSwitch.OnContent>
+                    <TextBlock Text="I'm On!"/>
+                </ToggleSwitch.OnContent>
+            </ToggleSwitch>
+            
+        </StackPanel>
+
     </Grid>
 </Page>
 

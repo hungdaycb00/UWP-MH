@@ -47,6 +47,50 @@
             </ComboBox>
             <TextBlock Name="ComboBoxResult"/>
         </StackPanel>
-        
+        <TextBlock Grid.Row="4" Text="ListBox" VerticalAlignment="Center" />
+        <StackPanel Grid.Row="4" Grid.Column="1" Margin="20,10,0,10">
+            <ListBox Name="MyListBox" SelectionMode="Multiple" SelectionChanged="ListBox_SelectionChanged">
+                <ListBoxItem Content="First"/>
+                <ListBoxItem Content="Second"/>
+                <ListBoxItem Content="Third"/>
+            </ListBox>
+            <TextBlock Name="ListBoxResultTextBlock"/>
+        </StackPanel>
+        <TextBlock Grid.Row="5" Text="Image" VerticalAlignment="Center" />
+        <Image Source="/Assets/StoreLogo.png"
+               HorizontalAlignment="Left"
+               Width="250"
+               Height="150"
+               Grid.Row="5"
+               Grid.Column="1"
+               Stretch="Fill"
+               Margin="20,10,0,10"/>
+        <TextBlock Grid.Row="7" Text="ToggleButton" VerticalAlignment="Center"/>
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="7"
+                    Grid.Column="1"
+                    Margin="20,10,0,10">
+            <ToggleButton Name="MyToggleButton"
+                          Content="Premium Option"
+                          IsThreeState="true"
+                          Click="MyToggleButton_Click"/>
+            <TextBlock Name="ToggleButtonResultTextBlock"/>
+            
+        </StackPanel>
+        <TextBlock Grid.Row="8" 
+                   Text="ToggleSwitch" VerticalAlignment="Center"/>
+        <StackPanel Grid.Row="8" Grid.Column="1" Margin="20,10,0,10">
+            <ToggleSwitch>
+                <ToggleSwitch.OffContent>
+                    <TextBlock Text="I'am here right now!"/>
+                    
+                </ToggleSwitch.OffContent>
+                <ToggleSwitch.OnContent>
+                    <TextBlock Text="I'm On!"/>
+                </ToggleSwitch.OnContent>
+            </ToggleSwitch>
+            
+        </StackPanel>
+
     </Grid>
 </Page>

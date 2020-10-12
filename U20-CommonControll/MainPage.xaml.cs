@@ -44,5 +44,19 @@ namespace U20_CommonControll
             var item = (ComboBoxItem)combo.SelectedItem;
             ComboBoxResult.Text = item.Content.ToString();
         }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var selectItem = MyListBox.Items.Cast<ListBoxItem>()
+                                .Where(p => p.IsSelected)
+                                    .Select(t => t.Content.ToString())
+                                        .ToArray();
+            ListBoxResultTextBlock.Text = string.Join(", ", selectItem);
+        }
+
+        private void MyToggleButton_Click(object sender, RoutedEventArgs e)
+        {
+            ToggleButtonResultTextBlock.Text = MyToggleButton.IsChecked.ToString();
+        }
     }
 }
