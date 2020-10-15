@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-BEC06FH</Machine>
-    <WindowsUser>hungc</WindowsUser>
+    <Machine>ADMIN</Machine>
+    <WindowsUser>Admin</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>0d3a6082-3525-4c0c-bd5f-fe1c60372c72</PackageIdentityName>
     <PackageIdentityPublisher>CN=Admin</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9AD07E8189043B42F45F996910258FE53B28F0FFBD312081C6E864C784FE34CD</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>3BAC80276F77DFF04E7D9052B5E63B20E756FC01CB1375F70B779457AB920E50</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0d3a6082-3525-4c0c-bd5f-fe1c60372c72_1.0.0.0_x86__5gyrq6psz227t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0d3a6082-3525-4c0c-bd5f-fe1c60372c72_5gyrq6psz227t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>0d3a6082-3525-4c0c-bd5f-fe1c60372c72</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-12T15:00:11.493</Modified>
+      <Modified>2020-10-13T01:32:24.794</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\bin\x86\Debug\HamburgerExample.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\bin\x86\Debug\HamburgerExample.exe">
       <PackagePath>entrypoint\HamburgerExample.exe</PackagePath>
-      <Modified>2020-10-12T15:00:09.363</Modified>
+      <Modified>2020-10-13T01:32:22.713</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,67 +46,67 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-12T14:35:38.986</Modified>
+      <Modified>2020-10-12T08:35:30.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-10-12T14:35:38.981</Modified>
+      <Modified>2020-10-01T02:23:34.584</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-12T14:35:38.982</Modified>
+      <Modified>2020-10-01T02:23:34.591</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-12T14:35:38.982</Modified>
+      <Modified>2020-10-01T02:23:34.638</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-12T14:35:38.983</Modified>
+      <Modified>2020-10-01T02:23:34.647</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-12T14:35:38.983</Modified>
+      <Modified>2020-10-01T02:23:34.652</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-12T14:35:38.983</Modified>
+      <Modified>2020-10-01T02:23:34.657</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-12T14:35:38.984</Modified>
+      <Modified>2020-10-01T02:23:34.663</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\bin\x86\Debug\HamburgerExample.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\bin\x86\Debug\HamburgerExample.xr.xml">
       <PackagePath>HamburgerExample.xr.xml</PackagePath>
-      <Modified>2020-10-12T15:00:09.070</Modified>
+      <Modified>2020-10-13T00:44:19.695</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-12T15:00:09.113</Modified>
+      <Modified>2020-10-13T01:32:22.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-12T15:00:09.113</Modified>
+      <Modified>2020-10-13T01:32:22.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-12T15:00:09.887</Modified>
+      <Modified>2020-10-13T01:32:23.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\HamburgerExample\bin\x86\Debug\Core\HamburgerExample.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\HamburgerExample\bin\x86\Debug\Core\HamburgerExample.exe">
       <PackagePath>HamburgerExample.exe</PackagePath>
-      <Modified>2020-10-12T15:00:11.461</Modified>
+      <Modified>2020-10-13T01:32:24.724</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
