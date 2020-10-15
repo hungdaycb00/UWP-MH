@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="U38_Example2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:U38_Example2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Name="LayoutRoot">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="VisualStateGroup">
+                <VisualState x:Name="wide">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"/>
+
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="First.(Grid.Row)" Value="0"/>
+                        <Setter Target="First.(Grid.Column)" Value="0"/>
+                        <Setter Target="Second.(Grid.Row)" Value="0"/>
+                        <Setter Target="Second.(Grid.Column)" Value="1"/>
+
+                        <Setter Target="First.(Grid.ColumnSpan)" Value="1"/>
+                        <Setter Target="Second.(Grid.ColumnSpan)" Value="1"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Narrow">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="First.(Grid.Row)" Value="0"/>
+                        <Setter Target="First.(Grid.Column)" Value="0"/>
+                        <Setter Target="Second.(Grid.Row)" Value="1"/>
+                        <Setter Target="Second.(Grid.Column)" Value="0"/>
+                        
+                        <Setter Target="First.(Grid.ColumnSpan)" Value="2"/>
+                        <Setter Target="Second.(Grid.ColumnSpan)" Value="2"/>
+                        
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel x:Name="First" Margin="20,20,0,0">
+            <Image Source="Assets/food.png" Stretch="Fill"/>
+
+        </StackPanel>
+        <StackPanel x:Name="Second" Margin="20,20,0,0" Grid.Row="1">
+            <TextBlock  TextWrapping="Wrap" Text="Ipsum nihil sanctus diam et lorem tempor nonumy eleifend ex amet stet consetetur dolore et amet nihil duo eros et vero diam molestie nonumy est et accusam clita dolore elit rebum sadipscing consetetur volutpat qui tempor et rebum diam tempor nulla ut aliquam diam diam adipiscing diam ut et tempor duo accusam eos lorem tincidunt et voluptua amet ut qui volutpat at vero et consequat sed ipsum elitr accusam quis duo eu diam et vel nonumy nonumy consectetuer sed iriure"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BCs9keytOQ9ebIDhrXpKLvgs1VqnAjNWEZtgJpGhijUtt7sZGhpnoxedcGoHmRYj+xKaVfSqEbk1Vo65F7nDSw==",
+  "dgSpecHash": "PRgUXXqt20F6vqos/nmaKCOBlX3OShFfBUOmW44VhlMjN6F6O+dsjwjLo9tVUX5g8nO0y3jgkx3wqiFyzKG8JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\StupendousChanllenge\\StupendousChanllenge\\StupendousChanllenge.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\HK3\\UWP-MH\\StupendousChanllenge\\StupendousChanllenge\\StupendousChanllenge.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

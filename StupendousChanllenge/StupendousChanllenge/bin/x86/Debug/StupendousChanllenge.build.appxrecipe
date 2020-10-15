@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-BEC06FH</Machine>
-    <WindowsUser>hungc</WindowsUser>
+    <Machine>ADMIN</Machine>
+    <WindowsUser>Admin</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>fe071d31-8127-42de-87cb-1e2942c848d2</PackageIdentityName>
     <PackageIdentityPublisher>CN=hungc</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\StupendousChanllenge.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\StupendousChanllenge.exe">
       <PackagePath>entrypoint\StupendousChanllenge.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,85 +34,85 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\background.jpg">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\background.jpg">
       <PackagePath>Assets\31chanllenge\background.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\order.jpg">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\order.jpg">
       <PackagePath>Assets\31chanllenge\order.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\coffee.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\coffee.png">
       <PackagePath>Assets\31chanllenge\coffee.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\complete.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\complete.png">
       <PackagePath>Assets\31chanllenge\complete.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\donuts.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\donuts.png">
       <PackagePath>Assets\31chanllenge\donuts.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\logo.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\logo.png">
       <PackagePath>Assets\31chanllenge\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\timmer.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\31chanllenge\timmer.png">
       <PackagePath>Assets\31chanllenge\timmer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\StupendousChanllenge.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\StupendousChanllenge.xr.xml">
       <PackagePath>StupendousChanllenge.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Coffee.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Coffee.xbf">
       <PackagePath>Coffee.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Complete.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Complete.xbf">
       <PackagePath>Complete.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Donuts.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Donuts.xbf">
       <PackagePath>Donuts.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Schedule.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Schedule.xbf">
       <PackagePath>Schedule.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Core\StupendousChanllenge.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\StupendousChanllenge\StupendousChanllenge\bin\x86\Debug\Core\StupendousChanllenge.exe">
       <PackagePath>StupendousChanllenge.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
