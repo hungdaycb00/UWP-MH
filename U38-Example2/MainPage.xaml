@@ -14,7 +14,6 @@
                 <VisualState x:Name="wide">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="800"/>
-
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="First.(Grid.Row)" Value="0"/>
