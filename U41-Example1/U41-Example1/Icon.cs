@@ -2,5 +2,6 @@
 {
     internal class Icon
     {
+        public object IconPath { get; internal set; }
     }
 }
