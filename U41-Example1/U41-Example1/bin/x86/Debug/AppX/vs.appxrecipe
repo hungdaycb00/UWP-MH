@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>ADMIN</Machine>
-    <WindowsUser>Admin</WindowsUser>
+    <Machine>DESKTOP-BEC06FH</Machine>
+    <WindowsUser>hungc</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a665092f-23da-4422-8e52-66aed49caa8c</PackageIdentityName>
     <PackageIdentityPublisher>CN=hungc</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>EB17A23ECB86689B9CDDF3E6FF371672786575988EFF5A0EEA7BF7E1A8F95EDF</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>5421FE9D4068338095431B014A56FE44D589B2BA54E852250CCC8772F0E8556B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a665092f-23da-4422-8e52-66aed49caa8c_1.0.0.0_x86__2bfkxbayjtmny</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a665092f-23da-4422-8e52-66aed49caa8c_2bfkxbayjtmny!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a665092f-23da-4422-8e52-66aed49caa8c</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-17T04:39:15.526</Modified>
+      <Modified>2020-10-18T13:34:14.423</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\U41-Example1.exe">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\U41-Example1.exe">
       <PackagePath>entrypoint\U41-Example1.exe</PackagePath>
-      <Modified>2020-10-17T04:39:14.531</Modified>
+      <Modified>2020-10-18T13:34:12.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,95 +46,95 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\female-01.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\female-01.png">
       <PackagePath>Assets\female-01.png</PackagePath>
-      <Modified>2020-10-17T04:13:57.951</Modified>
+      <Modified>2020-10-17T06:59:24.961</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\female-02.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\female-02.png">
       <PackagePath>Assets\female-02.png</PackagePath>
-      <Modified>2020-10-17T04:13:57.957</Modified>
+      <Modified>2020-10-17T06:59:24.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\female-03.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\female-03.png">
       <PackagePath>Assets\female-03.png</PackagePath>
-      <Modified>2020-10-17T04:13:57.963</Modified>
+      <Modified>2020-10-17T06:59:24.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\male-01.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\male-01.png">
       <PackagePath>Assets\male-01.png</PackagePath>
-      <Modified>2020-10-17T04:13:57.967</Modified>
+      <Modified>2020-10-17T06:59:24.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\male-02.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\male-02.png">
       <PackagePath>Assets\male-02.png</PackagePath>
-      <Modified>2020-10-17T04:13:57.972</Modified>
+      <Modified>2020-10-17T06:59:24.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\male-03.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\male-03.png">
       <PackagePath>Assets\male-03.png</PackagePath>
-      <Modified>2020-10-17T04:13:57.931</Modified>
+      <Modified>2020-10-17T06:59:24.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-10-17T01:08:49.538</Modified>
+      <Modified>2020-10-09T08:44:47.165</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-17T01:08:49.539</Modified>
+      <Modified>2020-10-09T08:44:47.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-17T01:08:49.540</Modified>
+      <Modified>2020-10-09T08:44:47.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-17T01:08:49.541</Modified>
+      <Modified>2020-10-09T08:44:47.178</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-17T01:08:49.541</Modified>
+      <Modified>2020-10-09T08:44:47.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-17T01:08:49.542</Modified>
+      <Modified>2020-10-09T08:44:47.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-17T01:08:49.543</Modified>
+      <Modified>2020-10-09T08:44:47.184</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-17T01:08:49.641</Modified>
+      <Modified>2020-10-16T14:23:23.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\U41-Example1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\U41-Example1.xr.xml">
       <PackagePath>U41-Example1.xr.xml</PackagePath>
-      <Modified>2020-10-17T04:05:52.488</Modified>
+      <Modified>2020-10-17T06:59:25.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-17T04:39:14.194</Modified>
+      <Modified>2020-10-18T13:34:12.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-17T04:39:14.194</Modified>
+      <Modified>2020-10-18T13:34:12.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\MyUserControl1.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\MyUserControl1.xbf">
       <PackagePath>MyUserControl1.xbf</PackagePath>
-      <Modified>2020-10-17T04:39:14.194</Modified>
+      <Modified>2020-10-18T13:34:12.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-17T04:39:14.723</Modified>
+      <Modified>2020-10-18T13:34:13.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\Core\U41-Example1.exe">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U41-Example1\U41-Example1\bin\x86\Debug\Core\U41-Example1.exe">
       <PackagePath>U41-Example1.exe</PackagePath>
-      <Modified>2020-10-17T04:39:15.514</Modified>
+      <Modified>2020-10-18T13:34:14.406</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
