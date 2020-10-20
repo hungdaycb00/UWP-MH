@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using U44_FakeNews.Model;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -22,9 +24,11 @@ namespace U44_FakeNews
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private ObservableCollection<NewItem> NewsItems;
         public MainPage()
         {
             this.InitializeComponent();
+            NewsItems = new ObservableCollection<NewItem>();
         }
 
         private void HumburgerButton_Click(object sender, RoutedEventArgs e)

@@ -66,12 +66,24 @@
                 </ListBox>
             </SplitView.Pane>
             <SplitView.Content>
-                <GridView Name="NewsItemGrid" HorizontalAlignment="Stretch"
-                          
+                <GridView Name="NewsItemGrid" 
+                          HorizontalAlignment="Stretch"
+                          ItemsSource="{x:Bind NewsItemGrid}"
                           Margin="10,0,0,0">
                     <GridView.ItemTemplate>
-                        <DataTemplate>
-                            
+                        <DataTemplate x:DataType="data:NewItem">
+                            <Grid Background="White" Margin="10" Height="275" Width="200">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Image Name="MyImage" Source="{x:Bind Image}"/>
+                                <RelativePanel Grid.Row="1">
+                                    <TextBlock Text="{x:Bind HeadLine}"/>
+                                    <TextBlock Text="{x:Bind Subhead}"/>
+                                    <TextBlock Text="{x:Bind DeadLine}"/>
+                                </RelativePanel>
+                            </Grid>
                         </DataTemplate>
                     </GridView.ItemTemplate>
                 </GridView>
