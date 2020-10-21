@@ -26,8 +26,8 @@
                         <AdaptiveTrigger MinWindowWidth="600"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="ImageName.Width" Value="200"/>
-                        <Setter Target="ImageName.Height" Value="200"/>
+                        <Setter Target="ImageName.Width" Value="300"/>
+                        <Setter Target="ImageName.Height" Value="300"/>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>

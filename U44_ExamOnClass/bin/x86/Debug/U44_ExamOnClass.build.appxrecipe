@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>ADMIN</Machine>
-    <WindowsUser>Admin</WindowsUser>
+    <Machine>DESKTOP-BEC06FH</Machine>
+    <WindowsUser>hungc</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b34b3408-9b48-4add-8534-c1ce3bc7d82b</PackageIdentityName>
     <PackageIdentityPublisher>CN=Admin</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Admin\source\repos\U44_ExamOnClass\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\U44_ExamOnClass.exe">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\U44_ExamOnClass.exe">
       <PackagePath>entrypoint\U44_ExamOnClass.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,73 +34,73 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\finacial.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\finacial.png">
       <PackagePath>Assets\finacial.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\finacial1.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\finacial1.png">
       <PackagePath>Assets\finacial1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\food.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\food.png">
       <PackagePath>Assets\food.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\finacial2.jpg">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\finacial2.jpg">
       <PackagePath>Assets\finacial2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\food1.jpg">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\food1.jpg">
       <PackagePath>Assets\food1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\food2.jpg">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\food2.jpg">
       <PackagePath>Assets\food2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\U44_ExamOnClass.xr.xml">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\U44_ExamOnClass.xr.xml">
       <PackagePath>U44_ExamOnClass.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\NewsItemControl.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\NewsItemControl.xbf">
       <PackagePath>NewsItemControl.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\Core\U44_ExamOnClass.exe">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\Core\U44_ExamOnClass.exe">
       <PackagePath>U44_ExamOnClass.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

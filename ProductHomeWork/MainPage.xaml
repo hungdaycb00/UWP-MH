@@ -25,10 +25,12 @@
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Text="Tên Sản Phẩm: " FontSize="28" Margin="20"/>
+            <TextBlock Text="Tên Sản Phẩm: " FontSize="28" Margin="20" HorizontalAlignment="Center"/>
             <TextBox x:Name="NameTextBox" Grid.Column="1" Width="200" HorizontalAlignment="Left" Margin="20"/>
-            <TextBlock Text="Ảnh" FontSize="28" Margin="20" Grid.Row="1"/>
-            <ComboBox ItemsSource="{x:Bind Icons}" x:Name="ComboBox" Grid.Row="1" Grid.Column="1" Width="100" Height="100">
+            <TextBlock Text="Ảnh" FontSize="28" Margin="20" Grid.Row="1" HorizontalAlignment="Center"/>
+            <ComboBox ItemsSource="{x:Bind Icons}" x:Name="ComboBox" 
+                      Margin="20"
+                      Grid.Row="1" Grid.Column="1" Width="100" Height="100">
                 <ComboBox.ItemTemplate>
                     <DataTemplate x:DataType="data:Icon">
                         <Image Source="{x:Bind ImagePath}" Width="100" Height="100" Margin="20"/>
@@ -40,7 +42,7 @@
         <GridView ItemsSource="{x:Bind listProducts}" Grid.Row="1">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="data:ListProduct">
-                    <local:MyUserControl1 HorizontalAlignment="Stretch"/>
+                    <local:MyUserControl1/>
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>

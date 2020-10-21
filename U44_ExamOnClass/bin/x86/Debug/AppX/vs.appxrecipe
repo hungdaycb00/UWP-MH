@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>ADMIN</Machine>
-    <WindowsUser>Admin</WindowsUser>
+    <Machine>DESKTOP-BEC06FH</Machine>
+    <WindowsUser>hungc</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b34b3408-9b48-4add-8534-c1ce3bc7d82b</PackageIdentityName>
     <PackageIdentityPublisher>CN=Admin</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Admin\source\repos\U44_ExamOnClass\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>DB444DED2BAFD32124041EFE9C217491E45A2A15550DD03619BC3508890E40E8</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>16158A1747A7A2B38242BAD785E3B31A39D071ABA6A0C766CB1FCA906269099D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b34b3408-9b48-4add-8534-c1ce3bc7d82b_1.0.0.0_x86__5gyrq6psz227t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b34b3408-9b48-4add-8534-c1ce3bc7d82b_5gyrq6psz227t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b34b3408-9b48-4add-8534-c1ce3bc7d82b</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-20T02:51:04.748</Modified>
+      <Modified>2020-10-21T12:32:18.839</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\U44_ExamOnClass.exe">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\U44_ExamOnClass.exe">
       <PackagePath>entrypoint\U44_ExamOnClass.exe</PackagePath>
-      <Modified>2020-10-20T02:51:03.821</Modified>
+      <Modified>2020-10-21T12:32:18.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,95 +46,95 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\finacial.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\finacial.png">
       <PackagePath>Assets\finacial.png</PackagePath>
-      <Modified>2020-10-20T01:36:00.314</Modified>
+      <Modified>2020-10-21T01:50:27.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\finacial1.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\finacial1.png">
       <PackagePath>Assets\finacial1.png</PackagePath>
-      <Modified>2020-10-20T01:42:12.986</Modified>
+      <Modified>2020-10-21T01:50:27.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\food.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\food.png">
       <PackagePath>Assets\food.png</PackagePath>
-      <Modified>2020-10-20T01:36:00.309</Modified>
+      <Modified>2020-10-21T01:50:27.098</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-10-01T02:23:34.584</Modified>
+      <Modified>2020-10-21T01:50:27.087</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.591</Modified>
+      <Modified>2020-10-21T01:50:27.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.638</Modified>
+      <Modified>2020-10-21T01:50:27.089</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.647</Modified>
+      <Modified>2020-10-21T01:50:27.089</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.652</Modified>
+      <Modified>2020-10-21T01:50:27.090</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.657</Modified>
+      <Modified>2020-10-21T01:50:27.090</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.663</Modified>
+      <Modified>2020-10-21T01:50:27.090</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\finacial2.jpg">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\finacial2.jpg">
       <PackagePath>Assets\finacial2.jpg</PackagePath>
-      <Modified>2020-10-20T01:42:13.018</Modified>
+      <Modified>2020-10-21T01:50:27.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\food1.jpg">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\food1.jpg">
       <PackagePath>Assets\food1.jpg</PackagePath>
-      <Modified>2020-10-20T01:42:13.005</Modified>
+      <Modified>2020-10-21T01:50:27.099</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Assets\food2.jpg">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Assets\food2.jpg">
       <PackagePath>Assets\food2.jpg</PackagePath>
-      <Modified>2020-10-20T01:42:12.993</Modified>
+      <Modified>2020-10-21T01:50:27.100</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-20T01:33:28.331</Modified>
+      <Modified>2020-10-21T01:50:27.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\U44_ExamOnClass.xr.xml">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\U44_ExamOnClass.xr.xml">
       <PackagePath>U44_ExamOnClass.xr.xml</PackagePath>
-      <Modified>2020-10-20T02:44:30.141</Modified>
+      <Modified>2020-10-21T01:50:27.209</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-20T02:48:18.453</Modified>
+      <Modified>2020-10-21T12:32:18.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-20T02:48:18.453</Modified>
+      <Modified>2020-10-21T12:32:18.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\NewsItemControl.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\NewsItemControl.xbf">
       <PackagePath>NewsItemControl.xbf</PackagePath>
-      <Modified>2020-10-20T02:48:18.453</Modified>
+      <Modified>2020-10-21T12:32:18.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-20T02:36:19.568</Modified>
+      <Modified>2020-10-21T04:58:41.681</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\U44_ExamOnClass\bin\x86\Debug\Core\U44_ExamOnClass.exe">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U44_ExamOnClass\bin\x86\Debug\Core\U44_ExamOnClass.exe">
       <PackagePath>U44_ExamOnClass.exe</PackagePath>
-      <Modified>2020-10-20T02:51:04.732</Modified>
+      <Modified>2020-10-21T12:32:18.805</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

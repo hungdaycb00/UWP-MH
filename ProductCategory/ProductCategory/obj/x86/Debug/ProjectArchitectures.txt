@@ -1,0 +1,1 @@
+C:\Users\hungc\Documents\GitHub\UWP-MH\ProductCategory\ProductCategory\ProductCategory.csproj;x86

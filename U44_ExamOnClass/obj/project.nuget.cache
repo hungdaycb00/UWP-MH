@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jRZcIzzuJm9/jxxaW6e2gR3htqfiC1Fv61CQaJjeqbjcKERJUdarEtlV+L33IwdgzlLy9iL3dQMzlIkcV3ZT1A==",
+  "dgSpecHash": "aGBo8B41D/lEPF5jXK0H+O/57NVfOvh1gkWeo4wMsRrlSbvoGo45PByt+WUHZ6NPUBV1c2Vh8dZ6NA6lfG7VEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\U44_ExamOnClass\\U44_ExamOnClass.csproj",
+  "projectFilePath": "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\U44_ExamOnClass\\U44_ExamOnClass.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
