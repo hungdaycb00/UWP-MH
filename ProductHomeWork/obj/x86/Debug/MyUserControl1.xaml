@@ -32,6 +32,7 @@
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
+        
         <Image x:ConnectionId='4' x:Name="ImageName"                                         Width="100" Height="100"/>
         <TextBlock x:ConnectionId='5'                                         FontSize="24" HorizontalAlignment="Center"/>
     </StackPanel>

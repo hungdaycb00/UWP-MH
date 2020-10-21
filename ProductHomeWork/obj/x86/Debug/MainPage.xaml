@@ -37,7 +37,7 @@
             </ComboBox>
             <Button x:ConnectionId='7' Name="AddProduct" Content="Add" FontSize="28" Grid.Row="2" Grid.Column="1" Margin="20" Width="100"                         />
         </Grid>
-        <GridView x:ConnectionId='2'                                    >
+        <GridView x:ConnectionId='2'                                     Grid.Row="1">
             <GridView.ItemTemplate>
                 <DataTemplate                              >
                     <local:MyUserControl1 HorizontalAlignment="Stretch"/>

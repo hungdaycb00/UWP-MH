@@ -32,6 +32,7 @@
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
+        
         <Image x:Name="ImageName" Source="{x:Bind ListProduct.ImagePath}" Width="100" Height="100"/>
         <TextBlock Text="{x:Bind ListProduct.nameProduct}" FontSize="24" HorizontalAlignment="Center"/>
     </StackPanel>

@@ -42,6 +42,9 @@ namespace ProductHomeWork
             string image = ((Icon)ComboBox.SelectedValue).ImagePath;
             listProducts.Add(new ListProduct { nameProduct = NameTextBox.Text, ImagePath = image });
 
+            NameTextBox.Text = "";
+            ComboBox.SelectedItem = -1;
+            NameTextBox.Focus(FocusState.Programmatic);
 
         }
     }

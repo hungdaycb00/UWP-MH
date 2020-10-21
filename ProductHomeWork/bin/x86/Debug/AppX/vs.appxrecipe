@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>ADMIN</Machine>
-    <WindowsUser>Admin</WindowsUser>
+    <Machine>DESKTOP-BEC06FH</Machine>
+    <WindowsUser>hungc</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>700366ae-284f-4395-b1b4-140daedbc649</PackageIdentityName>
     <PackageIdentityPublisher>CN=Admin</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B40B2E066D53D69AE91EE41E57DA10248A3E036A02C391069612E1BFEFF21D61</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>18250AA6215AFFA25D5DE46B1B4E82F0A2FC7D4D90DEF1FF4720993632139998</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>700366ae-284f-4395-b1b4-140daedbc649_1.0.0.0_x86__5gyrq6psz227t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>700366ae-284f-4395-b1b4-140daedbc649_5gyrq6psz227t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>700366ae-284f-4395-b1b4-140daedbc649</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-20T04:12:36.926</Modified>
+      <Modified>2020-10-21T02:08:22.360</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\bin\x86\Debug\ProductHomeWork.exe">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\bin\x86\Debug\ProductHomeWork.exe">
       <PackagePath>entrypoint\ProductHomeWork.exe</PackagePath>
-      <Modified>2020-10-20T04:12:35.912</Modified>
+      <Modified>2020-10-21T02:08:21.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,87 +46,87 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\finacial1.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\finacial1.png">
       <PackagePath>Assets\finacial1.png</PackagePath>
-      <Modified>2020-10-20T03:31:31.402</Modified>
+      <Modified>2020-10-21T01:50:26.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-10-01T02:23:34.584</Modified>
+      <Modified>2020-10-21T01:50:26.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.591</Modified>
+      <Modified>2020-10-21T01:50:26.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.638</Modified>
+      <Modified>2020-10-21T01:50:26.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.647</Modified>
+      <Modified>2020-10-21T01:50:26.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.652</Modified>
+      <Modified>2020-10-21T01:50:26.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.657</Modified>
+      <Modified>2020-10-21T01:50:26.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T02:23:34.663</Modified>
+      <Modified>2020-10-21T01:50:26.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\finacial2.jpg">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\finacial2.jpg">
       <PackagePath>Assets\finacial2.jpg</PackagePath>
-      <Modified>2020-10-20T03:31:31.479</Modified>
+      <Modified>2020-10-21T01:50:26.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\food1.jpg">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\food1.jpg">
       <PackagePath>Assets\food1.jpg</PackagePath>
-      <Modified>2020-10-20T03:31:31.468</Modified>
+      <Modified>2020-10-21T01:50:26.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Assets\food2.jpg">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Assets\food2.jpg">
       <PackagePath>Assets\food2.jpg</PackagePath>
-      <Modified>2020-10-20T03:31:31.431</Modified>
+      <Modified>2020-10-21T01:50:26.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-20T03:18:21.718</Modified>
+      <Modified>2020-10-21T01:50:26.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\bin\x86\Debug\ProductHomeWork.xr.xml">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\bin\x86\Debug\ProductHomeWork.xr.xml">
       <PackagePath>ProductHomeWork.xr.xml</PackagePath>
-      <Modified>2020-10-20T04:11:23.803</Modified>
+      <Modified>2020-10-21T02:08:21.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-20T04:12:35.565</Modified>
+      <Modified>2020-10-21T02:08:21.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-20T04:12:35.565</Modified>
+      <Modified>2020-10-21T02:08:21.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\bin\x86\Debug\MyUserControl1.xbf">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\bin\x86\Debug\MyUserControl1.xbf">
       <PackagePath>MyUserControl1.xbf</PackagePath>
-      <Modified>2020-10-20T04:12:35.565</Modified>
+      <Modified>2020-10-21T02:08:21.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-20T04:07:08.982</Modified>
+      <Modified>2020-10-21T02:04:09.390</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\ProductHomeWork\bin\x86\Debug\Core\ProductHomeWork.exe">
+    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\ProductHomeWork\bin\x86\Debug\Core\ProductHomeWork.exe">
       <PackagePath>ProductHomeWork.exe</PackagePath>
-      <Modified>2020-10-20T04:12:36.913</Modified>
+      <Modified>2020-10-21T02:08:22.355</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

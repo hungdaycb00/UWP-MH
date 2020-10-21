@@ -37,7 +37,7 @@
             </ComboBox>
             <Button Name="AddProduct" Content="Add" FontSize="28" Grid.Row="2" Grid.Column="1" Margin="20" Width="100" Click="AddProduct_Click"/>
         </Grid>
-        <GridView ItemsSource="{x:Bind listProducts}">
+        <GridView ItemsSource="{x:Bind listProducts}" Grid.Row="1">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="data:ListProduct">
                     <local:MyUserControl1 HorizontalAlignment="Stretch"/>

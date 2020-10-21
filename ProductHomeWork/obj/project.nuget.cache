@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uAwYvLhvJFqHHoSevYvdRdo0JYn83r13eCK31/dC6gCcsquSvjD3srMayCMhCiinw1D4/O9YGbyFfR9AKDAOMw==",
+  "dgSpecHash": "h6b+7NdwsKnrhzffYVM0WO1pgK061o9s6aEkbUTgMQb2414ali9acBNcGo/8avvM+pHJQao82HJPP43RBxhWjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\HK3\\UWP-MH\\ProductHomeWork\\ProductHomeWork.csproj",
+  "projectFilePath": "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\ProductHomeWork\\ProductHomeWork.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
