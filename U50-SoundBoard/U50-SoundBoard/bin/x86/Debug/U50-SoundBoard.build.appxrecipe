@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-BEC06FH</Machine>
-    <WindowsUser>hungc</WindowsUser>
+    <Machine>ADMIN</Machine>
+    <WindowsUser>Admin</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a65ffb76-1f2b-4a0d-aae5-68017f739bd0</PackageIdentityName>
     <PackageIdentityPublisher>CN=hungc</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\U50-SoundBoard.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\U50-SoundBoard.exe">
       <PackagePath>entrypoint\U50-SoundBoard.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,151 +34,151 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Animals\Cat.wav">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Animals\Cat.wav">
       <PackagePath>Assets\Audio\Animals\Cat.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Animals\Cow.wav">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Animals\Cow.wav">
       <PackagePath>Assets\Audio\Animals\Cow.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Cartoons\Gun.wav">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Cartoons\Gun.wav">
       <PackagePath>Assets\Audio\Cartoons\Gun.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Cartoons\Spring.wav">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Cartoons\Spring.wav">
       <PackagePath>Assets\Audio\Cartoons\Spring.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Taunts\Clock.wav">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Taunts\Clock.wav">
       <PackagePath>Assets\Audio\Taunts\Clock.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Taunts\LOL.wav">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Taunts\LOL.wav">
       <PackagePath>Assets\Audio\Taunts\LOL.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Warnings\Ship.wav">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Warnings\Ship.wav">
       <PackagePath>Assets\Audio\Warnings\Ship.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Warnings\Siren.wav">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Audio\Warnings\Siren.wav">
       <PackagePath>Assets\Audio\Warnings\Siren.wav</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Icons\animals.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Icons\animals.png">
       <PackagePath>Assets\Icons\animals.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Icons\cartoon.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Icons\cartoon.png">
       <PackagePath>Assets\Icons\cartoon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Icons\taunt.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Icons\taunt.png">
       <PackagePath>Assets\Icons\taunt.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Icons\warning.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Icons\warning.png">
       <PackagePath>Assets\Icons\warning.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Animals\Cat.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Animals\Cat.png">
       <PackagePath>Assets\Images\Animals\Cat.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Animals\Cow.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Animals\Cow.png">
       <PackagePath>Assets\Images\Animals\Cow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Cartoons\Gun.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Cartoons\Gun.png">
       <PackagePath>Assets\Images\Cartoons\Gun.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Cartoons\Spring.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Cartoons\Spring.png">
       <PackagePath>Assets\Images\Cartoons\Spring.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Taunts\Clock.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Taunts\Clock.png">
       <PackagePath>Assets\Images\Taunts\Clock.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Taunts\LOL.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Taunts\LOL.png">
       <PackagePath>Assets\Images\Taunts\LOL.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Warnings\Ship.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Warnings\Ship.png">
       <PackagePath>Assets\Images\Warnings\Ship.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Warnings\Siren.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Images\Warnings\Siren.png">
       <PackagePath>Assets\Images\Warnings\Siren.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\1240x1240.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\1240x1240.png">
       <PackagePath>Assets\PackageAppXManifest\1240x1240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\1240x600.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\1240x600.png">
       <PackagePath>Assets\PackageAppXManifest\1240x600.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\24x24-large.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\24x24-large.png">
       <PackagePath>Assets\PackageAppXManifest\24x24-large.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\24x24.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\24x24.png">
       <PackagePath>Assets\PackageAppXManifest\24x24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\300x300.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\300x300.png">
       <PackagePath>Assets\PackageAppXManifest\300x300.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\310x310.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\310x310.scale-100.png">
       <PackagePath>Assets\PackageAppXManifest\310x310.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\50x50-large.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\50x50-large.png">
       <PackagePath>Assets\PackageAppXManifest\50x50-large.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\50x50.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\50x50.png">
       <PackagePath>Assets\PackageAppXManifest\50x50.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\620x300.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\620x300.png">
       <PackagePath>Assets\PackageAppXManifest\620x300.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\71x71-large.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\71x71-large.png">
       <PackagePath>Assets\PackageAppXManifest\71x71-large.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\71x71.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\71x71.scale-100.png">
       <PackagePath>Assets\PackageAppXManifest\71x71.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\88x88-large.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\88x88-large.png">
       <PackagePath>Assets\PackageAppXManifest\88x88-large.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\88x88.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\PackageAppXManifest\88x88.png">
       <PackagePath>Assets\PackageAppXManifest\88x88.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\U50-SoundBoard.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\U50-SoundBoard.xr.xml">
       <PackagePath>U50-SoundBoard.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hungc\Documents\GitHub\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\Core\U50-SoundBoard.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\HK3\UWP-MH\U50-SoundBoard\U50-SoundBoard\bin\x86\Debug\Core\U50-SoundBoard.exe">
       <PackagePath>U50-SoundBoard.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

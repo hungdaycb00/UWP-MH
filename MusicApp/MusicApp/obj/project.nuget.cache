@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TsOJEhdkhv058fdyzgqwY2FcsG5ogpzK2QOrfReK2V6PWa2+C50azecpG88A+2xDpzJD/09DLzTjd3+q8FAUxQ==",
+  "dgSpecHash": "PecIixu8E6PoCdtYGKJL2nD91PNFqgVwnOCiO7UoWzRj4mBns9wGzj7U21l7YbWFb/aQlp3Z/j3VogHfCZMghQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\MusicApp\\MusicApp\\MusicApp.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\HK3\\UWP-MH\\MusicApp\\MusicApp\\MusicApp.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

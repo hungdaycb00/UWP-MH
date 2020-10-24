@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D390oqeyRpsjDy2KOEy8bTK2aWbTnSJ5hfvUThW3Blum15R4Ccr163yhViGqcJ87JhHM7XuaNnZTCFXYwJbrkA==",
+  "dgSpecHash": "51M/ZI2WUyA7PWufdWis+rG525ykkJuXyKCpc4BU9nn/GJRtern5ie0pDvEFp8a5iuYBdOBLwhmNpfwhWKjxFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\U50-SoundBoard\\U50-SoundBoard\\U50-SoundBoard.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\HK3\\UWP-MH\\U50-SoundBoard\\U50-SoundBoard\\U50-SoundBoard.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

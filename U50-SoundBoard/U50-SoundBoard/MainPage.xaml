@@ -78,6 +78,7 @@
                     <GridView Grid.Row="1"
                               Name="SoundGridView"
                               SelectionMode="None"
+                              Drop="SoundGridView_Drop"
                               ItemsSource="{x:Bind Sounds}"
                               IsItemClickEnabled="True"
                               ItemClick="SoundGridView_ItemClick">
