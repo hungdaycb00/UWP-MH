@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\HK3\\UWP-MH\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\HK3\\UWP-MH\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\HK3\\UWP-MH\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge.csproj",
         "projectName": "HamburgerHeavenChallenge",
-        "projectPath": "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge.csproj",
-        "packagesPath": "C:\\Users\\hungc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hungc\\Documents\\GitHub\\UWP-MH\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\HK3\\UWP-MH\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\HK3\\UWP-MH\\HamburgerHeavenChallenge\\HamburgerHeavenChallenge\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\hungc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
