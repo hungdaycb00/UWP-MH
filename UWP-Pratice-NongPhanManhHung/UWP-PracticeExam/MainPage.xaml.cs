@@ -40,7 +40,9 @@ namespace UWP_PracticeExam
             ImageProducts.Add(new ImageProduct { ImageProductPath = "Assets/quanboi.jpg" });
             ImageProducts.Add(new ImageProduct { ImageProductPath = "Assets/aokhoac.jpg" });
             Products = new ObservableCollection<Product>();
-
+            Products.Add(new Product { Name = "Quần đùi", Description = "Chất liệu mát, thích hợp vào mùa hè.", ImageProductPath = "Assets/quandui.jpg" });
+            Products.Add(new Product { Name = "Áo Phi Hành Gia", Description = "Chất liệu hợp kim đảm bảo an toàn.", ImageProductPath = "Assets/aophihanhgia.jpg" });
+            Products.Add(new Product { Name = "Quần Dài", Description = "Chất liệu mát, thích hợp đi quẩy.", ImageProductPath = "Assets/quandai.jpg" });
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
